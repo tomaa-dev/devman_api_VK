@@ -27,7 +27,7 @@ def is_shorten_link(link_stats_params):
 
 def main():
     load_dotenv()
-    vk_token = os.getenv("VK_IMPLICIT_FLOW_TOKEN")
+    vk_token = os.environ["VK_IMPLICIT_FLOW_TOKEN"]
 
     parser = argparse.ArgumentParser(description="Программа укорачивает ссылки")
     parser.add_argument('url', help='ссылка')
