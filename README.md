@@ -4,7 +4,7 @@
 # Как установить
 Операционная система: любая, где доступен Python 3 (Windows, macOS, Linux). Используем 'pip' для установки зависимостей (requests, python-dotenv):
 ```
-pip install - r requirements.txt
+pip install -r requirements.txt
 ```
 Рекомендуется использовать virtualenv/env для изоляции проекта.
 
